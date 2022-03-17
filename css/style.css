@@ -27,7 +27,7 @@ header{
 
 .section-2{
     background-color: #0186ff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
 }
 
@@ -57,17 +57,21 @@ header{
     width: 20%;
     margin-right: 20px;
 }
-
+/* colonna centrale */
 .centrale{
     float: left;
     width: calc(60% - 40px);
 
 }
-
+/* colonna dx */
 .destra{
     float: left;
     width: 20%;
     margin-left: 20px;
 }
 
-
+/* footer */
+footer{
+    min-height: 100px;
+    background-color: #8801fe;
+}
