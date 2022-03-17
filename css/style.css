@@ -5,3 +5,15 @@
     box-sizing: border-box;
 }
 
+/* container principale */
+.container{
+    width: 1280px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: #e579e6;
+}
