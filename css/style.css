@@ -20,16 +20,54 @@ header{
 
 /* main */
 .section-1{
-    min-height: 300px;
+    min-height: 200px;
     background-color: #e1d67a;
     margin-bottom: 20px;
 }
 
 .section-2{
-    background-color: #e1d67a;
+    background-color: #0186ff;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.section-2::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .mini-header{
     min-height: 50px;
     background-color: #abcfe7;
+    margin-bottom: 20px;
 }
+
+/* colonne */
+
+/* common */
+.colonna{
+    min-height: 400px;
+    background-color: #abcfe7;
+}
+
+/* colonna sx */
+.sinistra{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.centrale{
+    float: left;
+    width: calc(60% - 40px);
+
+}
+
+.destra{
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+}
+
+
