@@ -22,4 +22,14 @@ header{
 .section-1{
     min-height: 300px;
     background-color: #e1d67a;
+    margin-bottom: 20px;
+}
+
+.section-2{
+    background-color: #e1d67a;
+}
+
+.mini-header{
+    min-height: 50px;
+    background-color: #abcfe7;
 }
