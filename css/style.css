@@ -31,7 +31,7 @@ header{
     padding-bottom: 20px;
 }
 
-.section-2::after{
+.clearfix::after{  
     content: '';
     display: table;
     clear: both;
@@ -55,19 +55,17 @@ header{
 .sinistra{
     float: left;
     width: 20%;
-    margin-right: 20px;
 }
 /* colonna centrale */
 .centrale{
     float: left;
     width: calc(60% - 40px);
-
+    margin: 0 20px;
 }
 /* colonna dx */
 .destra{
     float: left;
     width: 20%;
-    margin-left: 20px;
 }
 
 /* footer */
